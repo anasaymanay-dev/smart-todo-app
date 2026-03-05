@@ -23,6 +23,7 @@ function addTask() {
         completed: false,
     });
     showElements();
+    taskInput.focus();
 }
 
 clearAll.onclick = function () {
