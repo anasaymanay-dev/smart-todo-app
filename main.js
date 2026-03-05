@@ -13,6 +13,9 @@ taskInput.onkeydown = function (e) {
     }
 };
 
+window.onload = function() {
+    taskInput.focus();
+}
 function addTask() {
     let value = taskInput.value.trim();
     if (value === "") {
